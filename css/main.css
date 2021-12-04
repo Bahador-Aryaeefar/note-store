@@ -1,0 +1,119 @@
+*
+{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    font-family: iransans-bold,Tahoma,Arial,sans-serif;
+    color: #2ed573;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    min-height: 90vh;
+    background-color: #121212;
+}
+
+#hold
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    background-color: #102a43;
+    border-radius: 20px;
+}
+
+#sign
+{
+    font-size: 25pt;
+}
+
+#alert
+{
+    font-size: 14pt;
+    color: #f14748;
+    margin-bottom: 15px;
+}
+
+ul
+{
+    padding: 0;
+}
+
+.item
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px;
+   // background-color: blue;
+}
+
+.input
+{
+    font-size: 14pt;
+    background-color: #a4b0be;
+    color: #121212;
+    width: 300px;
+    height: 37px;
+    border-radius: 15px;
+    direction: rtl;
+    padding: 5px 10px 5px 0;
+}
+
+#eye
+{
+    //background-color: red;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 106px;
+    bottom: 3px;
+    background-image: url("../img/uneye.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.btn
+{
+    padding-bottom: 5px;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    font-size: 15pt;
+    cursor: pointer;
+    background-color: #2ed573;
+    color : #121212;
+    position: relative;
+    transition: background-color 0.5s;
+}
+
+.btn:hover
+{
+    background-color: #156935;
+}
+
+.margb
+{
+    margin-bottom: 40px;
+}
+
+#log
+{
+    margin-right: 5px;
+}
+
+#sin
+{
+    margin-left: 5px;
+}
+
+

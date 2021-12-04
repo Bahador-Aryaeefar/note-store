@@ -1,0 +1,110 @@
+*
+{
+    font-family: iransans-bold,Tahoma,Arial,sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #121212;
+}
+
+#body::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+#body::-webkit-scrollbar-track {
+    background-color: gray;
+    box-shadow: inset 0 0 5px #121212;
+    //border-radius: 10px;
+}
+
+#body::-webkit-scrollbar-thumb {
+    background: #2ed573;
+    border-radius: 10px;
+}
+
+
+#body::-webkit-scrollbar-thumb:hover {
+    background: #156935;
+}
+
+#top
+{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: #102a43;
+}
+
+#hold
+{
+    position: fixed;
+    top: 105px;
+    /*background-color: red;*/
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cont
+{
+    position: relative;
+    background-color: #102a43;
+    height: 100%;
+    width: 65%;
+    border-radius: 15px;
+    border: #102a43 1px solid;
+}
+
+#head
+{
+    width: 100%;
+    height: 10%;
+    background-color: #273c75;
+    border-bottom: #121212 2px solid;
+    border-radius: 15px 15px 0 0;
+}
+
+#body
+{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    overflow: scroll;
+}
+
+#tent
+{
+    background-color: #102a43;
+    width: 110%;
+    height: 1000px;
+}
+
+#add
+{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#right
+{
+    background-color: #102a43;
+    height: 100%;
+    width: 30%;
+    border-radius: 15px;
+}
+
